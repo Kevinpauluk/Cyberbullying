@@ -93,3 +93,35 @@ body {
     width: 80%;
   }
 }
+
+#hero {
+  background: #e53935;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #c62828;
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
