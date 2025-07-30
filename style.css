@@ -49,3 +49,47 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+button {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  margin: 1rem auto;
+  display: block;
+}
+
+button:hover {
+  background-color: #c62828;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Layout responsivo */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+
+  section {
+    padding: 1.5rem;
+  }
+
+  #hero {
+    padding: 2rem 1rem;
+  }
+
+  button {
+    width: 80%;
+  }
+}
